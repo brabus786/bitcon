@@ -1,0 +1,26 @@
+.Select {
+    height: 70px;
+    border-bottom: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__button {
+        height: 30px;
+        padding: 0 15px;
+        border: 1px solid grey;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        margin-right: 15px;
+        cursor: pointer;
+    }
+    :last-child {
+        margin-right: 0;
+    }
+
+    .active{
+        background: green;
+        color: white;
+    }
+}
